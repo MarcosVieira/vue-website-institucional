@@ -1,5 +1,8 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <div>
+    <h1>Sobre</h1>
+    <h2>{{ msg }}</h2>
+  </div>
 </template>
 
 <script>
@@ -7,7 +10,7 @@ export default {
   name: 'about',
   data () {
     return {
-      msg: 'Sobre a nossa aplicação exemplo'
+      msg: 'Sobre a aplicação exemplo'
     }
   }
 }
