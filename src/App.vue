@@ -2,18 +2,6 @@
   <div id="app">
     <img src="./assets/header_grass.png">
     <router-view></router-view>
-    <md-card>
-      <md-card-header>
-        <div class="md-title">
-          Material Design com Vue.js
-        </div>
-        <div class="md-subhead">
-          Com Marcos Vieira
-        </div>
-      </md-card-header>
-      <md-card-content>
-      </md-card-content>
-    </md-card>
     <img src="./assets/footer_grass.png">
   </div>
 </template>
