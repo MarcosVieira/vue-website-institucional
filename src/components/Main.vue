@@ -1,19 +1,19 @@
 <template>
-  <div class="hello">
+  <div class="main">
     <h1>{{ msg }}</h1>
     <ul>
-      <li><a href="#/contato" target="_blank">Contato</a></li>
-      <li><a href="#/sobre" target="_blank">Sobre</a></li>
+      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
+      <li><a href="#/hello" target="_blank">Welcome</a></li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'main',
   data () {
     return {
-      msg: 'Bem-vindo ao universo Vue.js'
+      msg: 'Treinamento em Vue.js'
     }
   }
 }

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Main from '@/components/Main'
 
 Vue.use(Router)
 
@@ -10,12 +11,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello1',
-      component: Hello
+      name: 'Main',
+      component: Main
     },
     {
       path: '/hello',
-      name: 'Hello2',
+      name: 'Hello',
       component: Hello
     },
     {
