@@ -7,8 +7,13 @@
 </template>
 
 <script>
+  import MdCardHeader from '../node_modules/vue-material/src/components/mdCard/mdCardHeader'
+  import MdCardContent from '../node_modules/vue-material/src/components/mdCard/mdCardContent'
   export default {
-    name: 'app'
+    name: 'app',
+    components: {
+      MdCardContent,
+      MdCardHeader}
   }
 </script>
 

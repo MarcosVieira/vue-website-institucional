@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import About from '@/components/About'
+import People from '@/components/People'
 import Contact from '@/components/Contact'
 import Main from '@/components/Main'
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/hello',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/people',
+      name: 'Peope',
+      component: People
     },
     {
       path: '/sobre',
