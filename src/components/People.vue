@@ -69,7 +69,7 @@
         this.contatos.splice(0, this.contatos.length)
       }
     },
-    mounted () {
+    created () {
       this.fillTable()
     }
   }
