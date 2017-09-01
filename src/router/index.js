@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import About from '@/components/About'
 import People from '@/components/People'
+import Posts from '@/components/Posts'
+import PostsAxios from '@/components/PostsAxios'
 import Contact from '@/components/Contact'
 import Main from '@/components/Main'
 
@@ -24,6 +26,16 @@ export default new Router({
       path: '/people',
       name: 'Peope',
       component: People
+    },
+    {
+      path: '/posts',
+      name: 'Posts',
+      component: Posts
+    },
+    {
+      path: '/postsaxios',
+      name: 'PostsAxios',
+      component: PostsAxios
     },
     {
       path: '/sobre',
