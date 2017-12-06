@@ -48,7 +48,8 @@
       }
     },
     created () {
-      axios.get('http://jsonplaceholder.typicode.com/posts')
+      // on-line: http://jsonplaceholder.typicode.com/posts
+      axios.get('http://localhost:3000/posts')
         .then(response => {
           console.log(response.data)
           console.log(response.status)
